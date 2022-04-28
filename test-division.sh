@@ -15,6 +15,5 @@ for i in {0..5}; do
     echo "Test passed"
   else
     echo "Test failed"
-    exit 1
   fi
 done
