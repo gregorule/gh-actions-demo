@@ -11,7 +11,7 @@ done
 for i in {0..5}; do
   a=${num1s[$i]}
   b=${num2s[$i]}
-  if [ $(./add.sh $a $b) -eq ${results[$a,$b]} ]; then
+  if [ $(./division.sh $a $b) -eq ${results[$a,$b]} ]; then
     echo "Test passed"
   else
     echo "Test failed"
