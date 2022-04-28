@@ -34,3 +34,21 @@ jobs:
         run: |
           sudo chmod +x add.sh test-add.sh
           ./test-add.sh
+          
+      - name: Test subtract script
+        run: |
+          sudo chmod +x subtraction.sh test-subtraction.sh
+          ./test-subtraction.sh
+          
+      - name: Test multiplication script
+        run: |
+          sudo chmod +x multiplication.sh test-multiplication.sh
+          ./test-multiplication.sh
+          
+      - name: Test division script
+        run: |
+          sudo chmod +x division.sh test-division.sh
+          ./test-division.sh
+          
+          
+        
